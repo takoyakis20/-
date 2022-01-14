@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>あなたのええとこ診断サイト</title>
+</head>
+<body>
+    <h1>あなたの「ええとこ」は？</h1>
+    <P>まずは、診断したい人の名前を入れてください。</P>
+    <input type="text" name="user-name" id="user-name" size="40" maxlength="29"/>
+    <button id="assessment">診断する</button>
+    <div id = "result-area"></div>
+    <div id = "tweet-area">
+        <a href="<a href="https://twitter.com/intent/tweet?button_hashtag=あなたのいいところ&ref_src=twsrc%5Etfw" 
+        class="twitter-hashtag-button"
+         data-text="文章の結果" 
+         data-show-count="false">
+         Tweet #あなたのいいところ</a>
+         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </a>
+    </div>
+    <script src="assessment.js"></script>
+    <link rel="stylesheet" href="assessment.css">
+</body>
+</html>
